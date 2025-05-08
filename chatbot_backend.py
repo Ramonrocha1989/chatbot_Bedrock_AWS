@@ -7,7 +7,7 @@ from langchain_aws import ChatBedrockConverse
 def demo_chatbot():
     demo_llm=ChatBedrockConverse(
         credentials_profile_name='default',
-        model="amazon.nova-pro-v1:0",
+        model="us.deepseek.r1-v1:0",
         temperature=0.1,
         max_tokens=1000)
     return demo_llm
