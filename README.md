@@ -8,10 +8,10 @@ An intelligent chatbot named **Ramon**, built using [LangChain](https://www.lang
 ## 🛠 Technologies Used
 
 - **Python 3.10+**
-- **Streamlit** — Interface interativa
-- **LangChain** — Gerenciamento de cadeia de conversação e memória
-- **Amazon Bedrock** — Modelo LLM Titan (nova-pro-v1)
-- **AWS SDK com perfil configurado**
+- **Streamlit** — Interactive frontend
+- **LangChain** — Conversational chain and memory management
+- **Amazon Bedrock** — LLM model Titan (nova-pro-v1)
+- **AWS SDK with configured profile**
 
 ---
 
