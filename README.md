@@ -23,30 +23,35 @@ An intelligent chatbot named **Ramon**, built using [LangChain](https://www.lang
    cd seu-repo
 
 2. **Create and activate a virtual environment:**
-python -m venv venv
-source venv/bin/activate  # Linux/macOS
-venv\Scripts\activate     # Windows
+    ```bash
+    python -m venv venv
+    source venv/bin/activate  # Linux/macOS
+    venv\Scripts\activate     # Windows
 
 3. **Install dependencies:**:
-pip install -r requirements.txt
+    ```bash
+    pip install -r requirements.txt
 
 4. **Configure your AWS profile:**:
-aws configure --profile default
+    ```bash
+    aws configure --profile default
 
 5. **Run the chatbot:**:
-streamlit run chatbot_frontend.py
+    ```bash
+    streamlit run chatbot_frontend.py
 
 6. **Project structure:**:
-.
-├── app.py                   # Main Streamlit application
-├── chatbot_backend.py       # Backend logic with LangChain
-├── images/                  # (Optional) Project-related images
-├── requirements.txt
-└── README.md
+    ```bash
+    .
+    ├── app.py                   # Main Streamlit application
+    ├── chatbot_backend.py       # Backend logic with LangChain
+    ├── images/                  # (Optional) Project-related images
+    ├── requirements.txt
+    └── README.md
 
 ## 📷 UI Example
-(images/image1.png)
-(images/image2.png)
+![Example 1](images/image1.png)
+![Example 2](images/image2.png)
 
 
 
